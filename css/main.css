@@ -10,8 +10,44 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
 }
+
+section {
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+}
+
+h1, h2, p {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.icon {
+  color: #fff;
+}
+
+.btn {
+  border-color: #fff;
+}
+
+.btn:hover {
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 60em){
+
+}
+
 
 *, *::before, *::after {
   box-sizing: inherit;
