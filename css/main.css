@@ -40,13 +40,18 @@ p {
   border-color: #fff;
 }
 
-@media only screen and (min-width: 60em){
+.border{
+  border-bottom: rgba(255, 255, 255, 1)
+  height:2.5px;
+  width: 250px;
+}
+
+@media only screen and (min-width: 60em) {
 
   h2, p {
     text-align: left;
   }
 }
-
 
 *, *::before, *::after {
   box-sizing: inherit;
