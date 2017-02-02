@@ -17,6 +17,10 @@ section {
   background-image: linear-gradient(#ff9500, #ff5e3a);
 }
 
+a {
+  text-decoration: none;
+}
+
 h1, h2, p {
   color: #fff;
   list-style-type: none;
@@ -28,28 +32,37 @@ p {
   text-decoration: none;
 }
 
+h1, h2 {
+  font-weight: 600;
+}
+
 .icon {
   color: #fff;
 }
 
 .btn {
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, .5);
+  color: #fff;
 }
 
 .btn:hover {
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .5);
 }
 
-.border{
-  border-bottom: rgba(255, 255, 255, 1)
-  height:2.5px;
-  width: 250px;
+.border {
+  border-bottom: 3px solid rgba(255, 255, 255, .5);
 }
 
 @media only screen and (min-width: 60em) {
 
   h2, p {
     text-align: left;
+  }
+
+  .border {
+    border-right: 3px solid rgba(255, 255, 255, .5);
+    border-bottom: hidden;
   }
 }
 
